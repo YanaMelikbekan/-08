@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../Fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../Fonts/Oswald-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'TitilliumWeb-SemiBold';
+    src: url('../Fonts/TitilliumWeb-SemiBold.ttf') format('truetype');
+}
+.container{
+    height: 800px;
+    background: url('../Img/Rectangle2.png');
+}
+.header{
+    height: 80px;
+    background: rgba(0, 91, 193, 0.6);
+    display: flex;
+}
+.logo__text{
+    font-size: 24px;
+    font-family:'TitilliumWeb-SemiBold';
+    width: 75px;
+    margin-left: 7px;
+}
+.logo{
+    width: 140px;
+    display: flex;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.menu{
+    margin-left:555px;
+    margin-top: 30px;
+}
+.menu__text{
+    font-family:'OpenSans-SemiBold'; 
+    font-size: 14px;
+    display: flex; 
+
+}
+.textMenu{
+    margin-left:28px;
+}
+.block{
+    position: absolute;
+    background-color: rgba(0, 91, 193, 0.6);
+    width: 444px;
+    height: 720px;
+    left: 405px;
+}
+.content{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+.content__title{
+    font-family: 'Oswald-Regular';
+    font-size: 48px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+.content__subtitle{
+    font-family: 'OpenSans-Regular';
+    font-size: 16px;
+    width: 445px;
+    margin-bottom: 40px;
+}
+.button{
+    width: 160px;
+    height: 50px;
+    border: 2px solid white;
+}
+.buttonText{
+    font-family:'OpenSans-SemiBold';
+    font-size: 16px;
+    text-align: center;
+    padding-top: 13px;
+}
