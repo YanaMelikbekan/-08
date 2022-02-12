@@ -173,3 +173,33 @@
     font-family: 'OpenSans-Light';
     margin-top: 14px;
 }
+
+.catalog{
+    width: 1110px;
+    margin-top: 150px;
+    margin-left: 405px;
+}
+.catalog__title{
+    display: flex;
+}
+.title__text{
+    font-family: 'Oswald-Regular';
+    font-size: 30px;
+}
+.text__link{
+    color: #005BC1;
+    font-size: 24px;
+    font-family: 'Oswald-Regular';
+}
+.text__link-two{
+    color: #343434;
+    font-family: 'Oswald-Regular';
+    margin-left: 47px;
+}
+.text__line{
+    background-color:  #005BC1;
+}
+.nav__text{
+    display: flex;
+    justify-content: center;
+}
