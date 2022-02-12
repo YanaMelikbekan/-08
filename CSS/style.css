@@ -21,8 +21,11 @@
     src: url('../Fonts/TitilliumWeb-SemiBold.ttf') format('truetype');
 }
 .container{
+    width: 1920px;
     height: 800px;
     background: url('../Img/Rectangle2.png');
+    background-repeat: no-repeat;
+    margin: auto;
 }
 .header{
     height: 80px;
@@ -54,17 +57,18 @@
 .textMenu{
     margin-left:28px;
 }
+.contentСentre{
+    display: flex;
+}
 .block{
-    position: absolute;
     background-color: rgba(0, 91, 193, 0.6);
     width: 444px;
     height: 720px;
-    left: 405px;
+    margin-left: 405px;
 }
 .content{
-    position: absolute;
-    margin-left: 600px;
     margin-top: 200px;
+    margin-left: -190px;
 }
 .content__title{
     font-family: 'Oswald-Regular';
@@ -88,4 +92,46 @@
     font-size: 16px;
     text-align: center;
     padding-top: 13px;
+}
+
+.slider{
+    width: 1110px;
+    margin-top: 150px;
+    margin-left: 405px;
+}
+.sliderText{
+    color: black;
+}
+.sliderBlock{
+   display: flex;
+   justify-content: space-between;
+ 
+}
+.sliderTitle{
+  
+}
+.sliderText{
+    font-family: 'Oswald-Regular';
+    font-size:30px;
+}
+.lineDecor{
+    margin-right: 40px;
+    width: 100px;
+    padding-top:20px ;
+}
+.sliderButton{
+    width:55px;
+    height: 55px;
+    border: 1px solid #005BC1 ;
+    text-align: center;
+    padding-top: 15px;
+}
+.Imgline{
+    transform:rotateY(180deg);
+}
+.btn{
+    display: flex;
+}
+.sliderBlockTitle{
+    display: flex;
 }
