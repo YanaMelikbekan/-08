@@ -26,16 +26,20 @@
     src: url('../Fonts/OpenSans-Light.ttf') format('truetype');
 }
 .container{
-    width: 1920px;
-    height: 800px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.first-screen{
     background: url('../Img/Rectangle2.png');
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin: auto;
 }
 .header{
     height: 80px;
+    width: 100%;
     background: rgba(0, 91, 193, 0.6);
     display: flex;
+    margin: 0 auto;
 }
 .logo__text{
     font-size: 24px;
@@ -68,7 +72,7 @@
 .block{
     background-color: rgba(0, 91, 193, 0.6);
     width: 444px;
-    height: 720px;
+    height: 710px;
     margin-left: 405px;
 }
 .content{
@@ -98,11 +102,10 @@
     text-align: center;
     padding-top: 13px;
 }
-
 .slider{
     width: 1110px;
-    margin-top: 150px;
-    margin-left: 405px;
+    padding-top: 150px;
+    margin: 0 auto;
 }
 .sliderText{
     color: black;
@@ -110,7 +113,6 @@
 .sliderBlock{
    display: flex;
    justify-content: space-between;
- 
 }
 .sliderText{
     font-family: 'Oswald-Regular';
@@ -126,7 +128,7 @@
     height: 55px;
     border: 1px solid #005BC1 ;
     text-align: center;
-    padding-top: 15px;
+    background-color: white;
 }
 .Imgline{
     transform:rotateY(180deg);
@@ -176,8 +178,8 @@
 
 .catalog{
     width: 1110px;
-    margin-top: 150px;
-    margin-left: 405px;
+    margin: 0 auto;
+    padding-top:150px;
 }
 .catalog__title{
     display: flex;
@@ -192,14 +194,38 @@
     font-family: 'Oswald-Regular';
 }
 .text__link-two{
-    color: #343434;
+    color: #CACACA;
     font-family: 'Oswald-Regular';
     margin-left: 47px;
 }
 .text__line{
     background-color:  #005BC1;
+    width: 50px;
+    height: 2px;
 }
-.nav__text{
+.nav{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+}
+a{
+    text-decoration-line: none;
+}
+.cards__item{
+    width: 350px;
+    
+}
+.cards-img{
+    width: 350px;
+    position: absolute;
+}
+.cards__text{
+    padding: 15px 10px 10px 15px;
+    font-family: 'Oswald-Regular';
+    font-size: 18px;
+    width: 265px;
+    background-color: #005BC1;
+    position: relative;
+    top: 199px;
+    left: 85px;
 }
